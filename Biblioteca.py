@@ -18,7 +18,7 @@ class biblioteca:
 cart = biblioteca(client, id_lib, nrostock)
 cart.cartelera()
 
-confirmacion = input("¿confirma que es correcto?")
+confirmacion = input("¿confirma que es correcto? ")
 
 pos= "si"
 neg= "no"
