@@ -28,7 +28,7 @@ cuenta_reg = 0
 while cuenta_reg < 2:
 
     if confirmacion == pos:
-        print("Buenisimo, que tenga un excelente dia!")
+        input("Buenisimo, que tenga un excelente dia!")
         break
     elif confirmacion == neg:
         client = input("ingrese nuevamente el nombre del cliente ")
